@@ -1,1 +1,28 @@
 /* your code here */
+.product {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.product__info {
+    width: 35%;
+    float: right;
+}
+
+.product::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+}
